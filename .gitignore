@@ -1,0 +1,46 @@
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Database
+*.sqlite
+*.db
+
+# Logs
+*.log
+log_envio_emails.txt
+log_envio_reprovadas.txt
+
+# Generated Certificates and Sensitive Data
+alunos/
+aprovados/*
+arquivos/*
+certificado/certificado_*.png
+
+# Old Files not working anymore
+EnviarEmailGmail-Aprovados copy.py
+EnviarEmailGmail-Reprovados copy.py
+EnviarEmailGmail-Aprovados.py
+EnviarEmailGmail-Reprovados.py
+
+# Large files / Archives
+*.zip
+*.rar
+*.7z
+arquivos/*.zip
+
+# Credentials
+token.json
+client_secret*.json
+credentials.json
+inspired-parsec*.json
+teste.js
